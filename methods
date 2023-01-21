@@ -1,0 +1,13 @@
+SCALE EMBEDDED CATEGORICAL DATA?
+No, you shouldn't scale categorical data.
+If the feature is categorical, it means that each value has a separate meaning, so normalizing will turn this features into something different.
+There are several ways to deal with categorical data:
+a) Integer Encoding: Where each unique label is mapped to an integer.
+b) One Hot Encoding: Where each label is mapped to a binary vector.
+c) Learned Embedding: Where a distributed representation of the categories is learned.
+if the Target is continuous. Yes, you do need to scale the target variable if the target variable is having a large spread of values.
+
+then you are saying the amount feature is lot lot better than the percent feature
+and that's why usually one transform the data into the same distribution to not make a feature better than another feature
+
+ensemble technique- extra tree classifier
